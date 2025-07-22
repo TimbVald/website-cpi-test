@@ -35,7 +35,7 @@ const About = () => {
               <div className="relative w-80 h-96 rounded-[60%_40%_30%_70%/60%_30%_70%_40%] overflow-hidden border-8 border-white shadow-2xl">
                 <img 
                   src={directorAvatar} 
-                  alt="Directeur CPI" 
+                  alt="Coordonnateur CPI" 
                   className="w-full h-full object-cover"
                 />
               </div>
@@ -95,13 +95,13 @@ const About = () => {
               <div className="w-16 h-16 rounded-full overflow-hidden border-4 border-primary/20">
                 <img 
                   src={directorAvatar} 
-                  alt="Dr. Jean-Baptiste Bahama" 
+                  alt="Prof Saliou Niassy" 
                   className="w-full h-full object-cover"
                 />
               </div>
               <div className="flex-1">
-                <h4 className="font-bold text-primary text-lg">Dr. Jean-Baptiste Bahama</h4>
-                <p className="text-secondary font-medium">Directeur et Chef de Mission</p>
+                <h4 className="font-bold text-primary text-lg">Prof Saliou Niassy</h4>
+                <p className="text-secondary font-medium">Coordonnateur du CPI de l'Union Africaine</p>
               </div>
               <Button variant="secondary" className="group">
                 En savoir plus
