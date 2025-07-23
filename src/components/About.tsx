@@ -3,6 +3,7 @@ import { ArrowRight, Play } from "lucide-react";
 import directorAvatar from "@/assets/director-avatar.jpg";
 import logo from "@/assets/logo.png";
 
+// NOTE : Ce composant About est destiné à la section d'accueil. Pour la page institutionnelle complète, voir /pages/AboutInstitution.tsx
 const About = () => {
   return (
     <section id="about" className="py-20 bg-gradient-to-br from-muted/10 to-background relative overflow-hidden">
